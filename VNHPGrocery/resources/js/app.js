@@ -1,3 +1,3 @@
 require('./bootstrap');
 
-require('./components/Component.js');
+require('./components/user/layout/Header.js');
