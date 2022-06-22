@@ -2294,7 +2294,7 @@ header.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.js
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
       href: "/",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-        url: __webpack_require__(/*! ../../../../images/user/layout/header/logo.jpg */ "./resources/images/user/layout/header/logo.jpg"),
+        src: (__webpack_require__(/*! ../../../../images/user/layout/header/logo.jpg */ "./resources/images/user/layout/header/logo.jpg")["default"]),
         className: "logo"
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("ul", {
