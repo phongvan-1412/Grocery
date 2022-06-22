@@ -2064,6 +2064,8 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! ./components/user/layout/Header.js */ "./resources/js/components/user/layout/Header.js");
 
+__webpack_require__(/*! ./components/user/layout/Footer.js */ "./resources/js/components/user/layout/Footer.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -2097,6 +2099,172 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/js/components/user/layout/Footer.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/user/layout/Footer.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
+/* harmony import */ var _css_user_layout_footer_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../css/user/layout/footer.css */ "./resources/css/user/layout/footer.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+var header = react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot(document.getElementById('footer-component'));
+header.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)((react__WEBPACK_IMPORTED_MODULE_0___default().StrictMode), {
+  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("footer", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+      className: "footer-container1",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: "footer-container1-col1",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+          className: "contact",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+            children: "CONTACT US"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("span", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+              className: "fa-solid fa-location-dot"
+            }), "7th floor-35/6 D5 Str-Binh Thanh Dist-HCM city"]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("span", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+              className: "fa-solid fa-phone"
+            }), "(+84) 99 999 9999"]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("span", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+              className: "fa-solid fa-envelope"
+            }), "team1thebest@gmail.com"]
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+          className: "openingtimes",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+            children: "OPENING TIMES"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+              children: "Weekdays"
+            }), " 07:30 - 22:30", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+              children: "Weekends"
+            }), " 07:00 - 22:30"]
+          })]
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: "footer-container1-col2",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          children: "LATEST BLOG"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("span", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+            className: "fa-brands fa-facebook-square"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+            href: "#",
+            className: "link",
+            children: "@VNHP"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+            className: "blog",
+            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est labore deleniti eligendi officiis facere."
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+            href: "#",
+            className: "link",
+            children: "https://buff.ly/2zaSfAQ"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+            className: "date",
+            children: "12 May 2022"
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("span", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+            className: "fa-brands fa-facebook-square"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+            href: "#",
+            className: "link",
+            children: "@VNHP"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+            className: "blog",
+            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est labore deleniti eligendi officiis facere."
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+            href: "#",
+            className: "link",
+            children: "https://buff.ly/2zaSfAQ"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+            className: "date",
+            children: "12 May 2022"
+          })]
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: "footer-container1-col3",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          children: "GALLERY"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+          className: "gallery1",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-1.jpg */ "./resources/images/user/layout/footer/image-1.jpg"),
+            className: "gallery1__img1"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-2.jpg */ "./resources/images/user/layout/footer/image-2.jpg"),
+            className: "gallery1__img2"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-3.jpg */ "./resources/images/user/layout/footer/image-3.jpg"),
+            className: "gallery1__img3"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-7.jpg */ "./resources/images/user/layout/footer/image-7.jpg"),
+            className: "gallery1__img4"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-5.jpg */ "./resources/images/user/layout/footer/image-5.jpg"),
+            className: "gallery1__img5"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-9.jpg */ "./resources/images/user/layout/footer/image-9.jpg"),
+            className: "gallery1__img6"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-4.jpg */ "./resources/images/user/layout/footer/image-4.jpg"),
+            className: "gallery1__img7"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-8.jpg */ "./resources/images/user/layout/footer/image-8.jpg"),
+            className: "gallery1__img8"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-6.jpg */ "./resources/images/user/layout/footer/image-6.jpg"),
+            className: "gallery1__img9"
+          })]
+        })]
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+      className: "footer-containter2",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: "footer-icon",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+          href: "#",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+            className: "fa-brands fa-facebook"
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+          href: "#",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+            className: "fa-brands fa-instagram-square"
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+          href: "#",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+            className: "fa-brands fa-twitter-square"
+          })
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: "sentence",
+        children: ["@ 2017 VNHP's Grocery. ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+          href: "#",
+          children: "Get The Theme"
+        })]
+      })]
+    })]
+  })
+}));
+
+/***/ }),
+
 /***/ "./resources/js/components/user/layout/Header.js":
 /*!*******************************************************!*\
   !*** ./resources/js/components/user/layout/Header.js ***!
@@ -2126,7 +2294,7 @@ header.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.js
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
       href: "/",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-        url: __webpack_require__(/*! ../../../../images/logo.jpg */ "./resources/images/logo.jpg"),
+        url: __webpack_require__(/*! ../../../../images/user/layout/header/logo.jpg */ "./resources/images/user/layout/header/logo.jpg"),
         className: "logo"
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("ul", {
@@ -2204,6 +2372,30 @@ header.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.js
     })]
   })
 }));
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/css/user/layout/footer.css":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/css/user/layout/footer.css ***!
+  \********************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n.footer-container1{\r\n    background-color: rgb(44, 44, 44);\r\n    width: 100%;\r\n    height: 400px;\r\n    display: grid;\r\n    grid-template-columns: repeat(3,1fr);\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding-left: 80px;\r\n}\r\n.footer-container1>.footer-container1-col1{\r\n    width: 400px;\r\n    height: 400px;\r\n    padding: 20px 25px;\r\n}\r\n.footer-container1>.footer-container1-col1>.contact{\r\n    margin-bottom: 100px;\r\n}\r\n.footer-container1>.footer-container1-col1>.contact>h4{\r\n    color: white;\r\n    letter-spacing: 2px;\r\n    margin-bottom: 20px;\r\n    font-weight: 550;\r\n}\r\n.footer-container1>.footer-container1-col1>.contact>p{\r\n    color: rgb(200, 200, 200);\r\n    font-size: 13px;\r\n    letter-spacing: -0.5px;\r\n    line-height: 5px;\r\n}\r\n.footer-container1>.footer-container1-col1>.openingtimes>h4{\r\n    color: white;\r\n    letter-spacing: 2px;\r\n    margin-bottom: 20px;\r\n    font-weight: 550;\r\n}\r\n.footer-container1>.footer-container1-col1>.openingtimes>p{\r\n    color: rgb(200, 200, 200);\r\n    font-size: 13px;\r\n    letter-spacing: -0.5px;\r\n    line-height: 20px;\r\n}\r\n.footer-container1>.footer-container1-col2{\r\n    width: 400px;\r\n    height: 400px;\r\n    padding: 20px 25px;\r\n}\r\n.footer-container1>.footer-container1-col2>h4{\r\n    color: white;\r\n    letter-spacing: 3px;\r\n    margin-bottom: 20px;\r\n    font-weight: 550;\r\n}\r\n.footer-container1>.footer-container1-col2>p{\r\n    line-height: 15px;\r\n}\r\n.footer-container1>.footer-container1-col2>p>i{\r\n    color: white;\r\n}\r\n.footer-container1>.footer-container1-col2>p>a{\r\n    color: red;\r\n    font-size: 15px;\r\n    text-decoration: none;\r\n}\r\n.link{\r\n    color: red;\r\n    text-decoration: none;\r\n    font-size: 13px;\r\n}\r\n.blog{\r\n    color: rgb(200, 200, 200);\r\n    font-size: 13px;\r\n    letter-spacing: -0.5px;\r\n    line-height: 15px;\r\n}\r\n.date{\r\n    color: rgb(131, 131, 131);\r\n    font-size: 9px;\r\n}\r\n.footer-containter2{\r\n    background-color: rgb(17, 17, 17);\r\n    height: 80px;\r\n    display: grid;\r\n    grid-template-columns: repeat(2,1fr);\r\n    align-items: center;\r\n}\r\n.footer-containter2>.footer-icon{\r\n    text-align: left;\r\n    margin-left: 30px;\r\n}\r\n.footer-containter2>.footer-icon>a>i{\r\n    color: white;\r\n    font-size: 20px;\r\n    padding: 0 8px;\r\n}\r\n.footer-containter2>.footer-icon>a>i:hover{\r\n    color: red;\r\n}\r\n.sentence{\r\n    text-align: right;\r\n    margin-right: 30px;\r\n}\r\n.sentence>a{\r\n    text-decoration: none;\r\n    color: white;\r\n}\r\n.sentence>a:hover{\r\n    color: red;\r\n}\r\n.footer-container1-col3{\r\n    width: 400px;\r\n    height: 400px;\r\n    padding: 20px 25px;\r\n}\r\n.footer-container1-col3>h4{\r\n    color: white;\r\n    letter-spacing: 3px;\r\n    margin-bottom: 20px;\r\n    font-weight: 550;\r\n    margin: 0 15px 20px 15px;\r\n}\r\n.gallery1 {\r\n    margin: 0 15px;\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 100px);\r\n    grid-template-rows: repeat(3, 100px);\r\n    grid-gap: 5px;\r\n}\r\n.gallery1>img {\r\n    width: 100%;\r\n    height: 100%;\r\n    -o-object-position: center;\r\n       object-position: center;\r\n    transition-duration: 0.1s;\r\n}\r\n.gallery1>img:hover {\r\n    transform: scale(1.1);\r\n}\r\n.gallery1__img1{\r\n    grid-column-start: 1;\r\n    grid-column-end: 1;\r\n    grid-row-start: 1;\r\n    grid-row-end: 1;\r\n}\r\n.gallery1__img2{\r\n    grid-column-start: 2;\r\n    grid-column-end: 2;\r\n    grid-row-start: 1;\r\n    grid-row-end: 1;\r\n}\r\n.gallery1__img3{\r\n    grid-column-start: 3;\r\n    grid-column-end: 3;\r\n    grid-row-start: 1;\r\n    grid-row-end: 1;\r\n}\r\n.gallery1__img4{\r\n    grid-column-start: 1;\r\n    grid-column-end: 1;\r\n    grid-row-start: 2;\r\n    grid-row-end: 2;\r\n}\r\n.gallery1__img5{\r\n    grid-column-start: 2;\r\n    grid-column-end: 2;\r\n    grid-row-start: 2;\r\n    grid-row-end: 2;\r\n}\r\n.gallery1__img6{\r\n    grid-column-start: 3;\r\n    grid-column-end: 3;\r\n    grid-row-start: 2;\r\n    grid-row-end: 2;\r\n}\r\n.gallery1__img7{\r\n    grid-column-start: 1;\r\n    grid-column-end: 1;\r\n    grid-row-start: 3;\r\n    grid-row-end: 3;\r\n}\r\n.gallery1__img8{\r\n    grid-column-start: 2;\r\n    grid-column-end: 2;\r\n    grid-row-start: 3;\r\n    grid-row-end: 3;\r\n}\r\n.gallery1__img9{\r\n    grid-column-start: 3;\r\n    grid-column-end: 3;\r\n    grid-row-start: 3;\r\n    grid-row-end: 3;\r\n}", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
 
 /***/ }),
 
@@ -2307,10 +2499,145 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
-/***/ "./resources/images/logo.jpg":
-/*!***********************************!*\
-  !*** ./resources/images/logo.jpg ***!
-  \***********************************/
+/***/ "./resources/images/user/layout/footer/image-1.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/images/user/layout/footer/image-1.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/image-1.jpg?54f406ecf796e36b27cc05ab890181e5");
+
+/***/ }),
+
+/***/ "./resources/images/user/layout/footer/image-2.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/images/user/layout/footer/image-2.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/image-2.jpg?e7f7c2f5f2167b2025c0ef5cdb78a037");
+
+/***/ }),
+
+/***/ "./resources/images/user/layout/footer/image-3.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/images/user/layout/footer/image-3.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/image-3.jpg?a270e3bcaab1601980e28d418a56d390");
+
+/***/ }),
+
+/***/ "./resources/images/user/layout/footer/image-4.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/images/user/layout/footer/image-4.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/image-4.jpg?57ba07933e9e33d361a5e534d75c75ba");
+
+/***/ }),
+
+/***/ "./resources/images/user/layout/footer/image-5.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/images/user/layout/footer/image-5.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/image-5.jpg?7de3863a917f529eaa2911bf2fe6ec4e");
+
+/***/ }),
+
+/***/ "./resources/images/user/layout/footer/image-6.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/images/user/layout/footer/image-6.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/image-6.jpg?2627708db369a9f0d86a4676d8b49a4d");
+
+/***/ }),
+
+/***/ "./resources/images/user/layout/footer/image-7.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/images/user/layout/footer/image-7.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/image-7.jpg?f4451e3caad34203657e1f5778817f6d");
+
+/***/ }),
+
+/***/ "./resources/images/user/layout/footer/image-8.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/images/user/layout/footer/image-8.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/image-8.jpg?c13896f157d85bfcb97fa5ddbe4bd597");
+
+/***/ }),
+
+/***/ "./resources/images/user/layout/footer/image-9.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/images/user/layout/footer/image-9.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/image-9.jpg?d89451830edeed0008f6a3923327a591");
+
+/***/ }),
+
+/***/ "./resources/images/user/layout/header/logo.jpg":
+/*!******************************************************!*\
+  !*** ./resources/images/user/layout/header/logo.jpg ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -54458,6 +54785,36 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler.development.js */ "./node_modules/scheduler/cjs/scheduler.development.js");
 }
 
+
+/***/ }),
+
+/***/ "./resources/css/user/layout/footer.css":
+/*!**********************************************!*\
+  !*** ./resources/css/user/layout/footer.css ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_footer_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./footer.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/css/user/layout/footer.css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_footer_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_footer_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 

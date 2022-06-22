@@ -9,7 +9,7 @@ header.render(
     <React.StrictMode>
         <header>
             <input type="checkbox" id="chk1"/>
-            <a href="/"><img url={require("../../../../images/logo.jpg")} className="logo" /></a> 
+            <a href="/"><img url={require("../../../../images/user/layout/header/logo.jpg")} className="logo" /></a> 
 
             <ul>
                 <li><a href="../about">About</a></li>

@@ -10,6 +10,7 @@
     
     <body class="antialiased">
         <div id="header-component"></div>
+        <div id="footer-component"></div>
         <script src="./js/app.js"></script>
     </body>
 </html>
