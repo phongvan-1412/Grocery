@@ -1,13 +1,16 @@
 import React from "react";
 import ReactDOM from 'react-dom';
+import * as ReactDOMClient from 'react-dom/client';
 
-import '../../../../css/header.css';//import '../../../../../public/css/user/layout/header.css';
+import '../../../../css/user/layout/header.css';
 
-export default function Header(){
-    return (
+const header = ReactDOMClient.createRoot(document.getElementById('header-component'));
+header.render(
+    <React.StrictMode>
         <header>
-            <input type="checkbox" name="" id="chk1"/>
-            <a href="/"><img src="{{asset('img/logo.jpg')}}" class="logo" /></a> 
+            <input type="checkbox" id="chk1"/>
+            <a href="/"><img url={require("../../../../images/user/layout/header/logo.jpg")} className="logo" /></a> 
+
             <ul>
                 <li><a href="../about">About</a></li>
                 <li><a href="../blog">Blog</a></li>
@@ -19,24 +22,18 @@ export default function Header(){
                 <li><a href="../register">Sign Up </a></li>
                 <li><a href="../login">Log In</a></li>
                 <li>
-                    <a href="#"><i class="fa-brands fa-facebook"/></a>
-                    <a href="#"><i class="fa-brands fa-instagram-square"/></a>
-                    <a href="#"><i class="fa-brands fa-twitter-square"/></a>
+                    <a href="#"><i className="fa-brands fa-facebook"/></a>
+                    <a href="#"><i className="fa-brands fa-instagram-square"/></a>
+                    <a href="#"><i className="fa-brands fa-twitter-square"/></a>
                 </li>
             </ul>
 
-            <div class="menu">
-                <label for="chk1">
-                    <i class="fa-solid fa-bars" />
+            <div className="menu">
+                <label htmlFor="chk1">
+                    <i className="fa-solid fa-bars" />
                 </label>
             </div>
         </header> 
-    );
-}
+    </React.StrictMode>
+  )
 
-
-if(document.getElementById('header-component')){
-    ReactDOM.render(
-       <Header />, document.getElementById('header-component') 
-    )
-}
