@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from 'react-dom';
 import * as ReactDOMClient from 'react-dom/client';
 
-import '../../../../css/user/layout/header.css';//import '../../../../../public/css/user/layout/header.css';
+import '../../../../css/user/layout/header.css';
 
 const header = ReactDOMClient.createRoot(document.getElementById('header-component'));
 header.render(
@@ -10,6 +10,7 @@ header.render(
         <header>
             <input type="checkbox" id="chk1"/>
             <a href="/"><img url={require("../../../../images/logo.jpg")} className="logo" /></a> 
+
             <ul>
                 <li><a href="../about">About</a></li>
                 <li><a href="../blog">Blog</a></li>
