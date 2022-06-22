@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>VNHP's Grocery</title>
 
         <script src="https://kit.fontawesome.com/8b058784b8.js" crossorigin="anonymous"></script>
 
@@ -13,6 +13,6 @@
        <div id="header-component"></div>
         
        
-       <script src="{{ asset('js/app.js') }}"></script>
+       <script src="{{ asset('js/user.js') }}"></script>
     </body>
 </html>
