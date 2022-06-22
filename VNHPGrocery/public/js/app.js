@@ -2203,31 +2203,31 @@ header.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.js
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
           className: "gallery1",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-1.jpg */ "./resources/images/user/layout/footer/image-1.jpg"),
+            src: (__webpack_require__(/*! ../../../../images/user/layout/footer/image-1.jpg */ "./resources/images/user/layout/footer/image-1.jpg")["default"]),
             className: "gallery1__img1"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-2.jpg */ "./resources/images/user/layout/footer/image-2.jpg"),
+            src: (__webpack_require__(/*! ../../../../images/user/layout/footer/image-2.jpg */ "./resources/images/user/layout/footer/image-2.jpg")["default"]),
             className: "gallery1__img2"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-3.jpg */ "./resources/images/user/layout/footer/image-3.jpg"),
+            src: (__webpack_require__(/*! ../../../../images/user/layout/footer/image-3.jpg */ "./resources/images/user/layout/footer/image-3.jpg")["default"]),
             className: "gallery1__img3"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-7.jpg */ "./resources/images/user/layout/footer/image-7.jpg"),
+            src: (__webpack_require__(/*! ../../../../images/user/layout/footer/image-7.jpg */ "./resources/images/user/layout/footer/image-7.jpg")["default"]),
             className: "gallery1__img4"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-5.jpg */ "./resources/images/user/layout/footer/image-5.jpg"),
+            src: (__webpack_require__(/*! ../../../../images/user/layout/footer/image-5.jpg */ "./resources/images/user/layout/footer/image-5.jpg")["default"]),
             className: "gallery1__img5"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-9.jpg */ "./resources/images/user/layout/footer/image-9.jpg"),
+            src: (__webpack_require__(/*! ../../../../images/user/layout/footer/image-9.jpg */ "./resources/images/user/layout/footer/image-9.jpg")["default"]),
             className: "gallery1__img6"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-4.jpg */ "./resources/images/user/layout/footer/image-4.jpg"),
+            src: (__webpack_require__(/*! ../../../../images/user/layout/footer/image-4.jpg */ "./resources/images/user/layout/footer/image-4.jpg")["default"]),
             className: "gallery1__img7"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-8.jpg */ "./resources/images/user/layout/footer/image-8.jpg"),
+            src: (__webpack_require__(/*! ../../../../images/user/layout/footer/image-8.jpg */ "./resources/images/user/layout/footer/image-8.jpg")["default"]),
             className: "gallery1__img8"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            url: __webpack_require__(/*! ../../../../images/user/layout/footer/image-6.jpg */ "./resources/images/user/layout/footer/image-6.jpg"),
+            src: (__webpack_require__(/*! ../../../../images/user/layout/footer/image-6.jpg */ "./resources/images/user/layout/footer/image-6.jpg")["default"]),
             className: "gallery1__img9"
           })]
         })]

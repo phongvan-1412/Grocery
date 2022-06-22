@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import * as ReactDOMClient from 'react-dom/client';
-
 import '../../../../css/user/layout/footer.css';
 
 const header = ReactDOMClient.createRoot(document.getElementById('footer-component'));
@@ -60,15 +59,15 @@ header.render(
                 <div className="footer-container1-col3">
                     <h4>GALLERY</h4>
                     <div className="gallery1">
-                        <img url={require("../../../../images/user/layout/footer/image-1.jpg")} className="gallery1__img1" />
-                        <img url={require("../../../../images/user/layout/footer/image-2.jpg")} className="gallery1__img2" />
-                        <img url={require("../../../../images/user/layout/footer/image-3.jpg")} className="gallery1__img3" />
-                        <img url={require("../../../../images/user/layout/footer/image-7.jpg")} className="gallery1__img4" />
-                        <img url={require("../../../../images/user/layout/footer/image-5.jpg")} className="gallery1__img5" />
-                        <img url={require("../../../../images/user/layout/footer/image-9.jpg")} className="gallery1__img6" />
-                        <img url={require("../../../../images/user/layout/footer/image-4.jpg")} className="gallery1__img7" />
-                        <img url={require("../../../../images/user/layout/footer/image-8.jpg")} className="gallery1__img8" />
-                        <img url={require("../../../../images/user/layout/footer/image-6.jpg")} className="gallery1__img9" />
+                        <img src={require("../../../../images/user/layout/footer/image-1.jpg").default} className="gallery1__img1" />
+                        <img src={require("../../../../images/user/layout/footer/image-2.jpg").default} className="gallery1__img2" />
+                        <img src={require("../../../../images/user/layout/footer/image-3.jpg").default} className="gallery1__img3" />
+                        <img src={require("../../../../images/user/layout/footer/image-7.jpg").default} className="gallery1__img4" />
+                        <img src={require("../../../../images/user/layout/footer/image-5.jpg").default} className="gallery1__img5" />
+                        <img src={require("../../../../images/user/layout/footer/image-9.jpg").default} className="gallery1__img6" />
+                        <img src={require("../../../../images/user/layout/footer/image-4.jpg").default} className="gallery1__img7" />
+                        <img src={require("../../../../images/user/layout/footer/image-8.jpg").default} className="gallery1__img8" />
+                        <img src={require("../../../../images/user/layout/footer/image-6.jpg").default} className="gallery1__img9" />
                     </div>
                 </div>
             </div>
