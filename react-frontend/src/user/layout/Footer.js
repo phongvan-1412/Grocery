@@ -43,15 +43,18 @@ const Footer = props => {
                         <Link to="#">@VNHP</Link> 
                         <br /><br />
                         <span className="blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est labore deleniti eligendi officiis facere.</span> 
+                        <br />
                         <Link to="#" className="link">https://buff.ly/2zaSfAQ</Link>
                         <br /><br />
                         <span className="date">12 May 2022</span>
                     </span>
+                    <br /><br /><br />
                     <span>
                         <i className="fa-brands fa-facebook-square" />
                         <Link to="#">@VNHP</Link>
                         <br /><br />
                         <span className="blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est labore deleniti eligendi officiis facere.</span> 
+                        <br />
                         <Link to="#" className="link">https://buff.ly/2zaSfAQ</Link>
                         <br /><br />
                         <span className="date">12 May 2022</span> 
